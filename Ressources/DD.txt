@@ -1,0 +1,212 @@
+Dictionnaire de données 
+
+Nom : NOM
+Code : NOM
+Type : VARCHAR
+Taille : 100,
+Commentaire : 
+
+Nom : PRENOM
+Code : PRENOM
+Type : VARCHAR
+Taille : 100,
+Commentaire : 
+
+Nom : LOCALISATION
+Code : LOCALISATION
+Type : VARCHAR
+Taille : 255,
+Commentaire : 
+
+Nom : ADRESSE MAIL
+Code : ADRESSE MAIL
+Type : VARCHAR
+Taille : 255,
+Commentaire : 
+
+Nom : MOT DE PASSE
+Code : MOT DE PASSE
+Type : VARCHAR
+Taille : 255,100
+Commentaire : 
+
+Nom : CHECK_MOT DE PASSE
+Code : CHECK_MOT DE PASSE
+Type : BOOL
+Taille : ,
+Commentaire : 
+
+Nom : ID_IDENTIFICATION
+Code : ID_IDENTIFICATION
+Type : VARCHAR
+Taille : 255,
+Commentaire : 
+
+Nom : ID_IDENTIFICATION
+Code : ID_IDENTIFICATION
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : ID_produit
+Code : ID_PRODUIT
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : Nom_produit
+Code : NOM_PRODUIT
+Type : VARCHAR
+Taille : 255,
+Commentaire : 
+
+Nom : Description_produit
+Code : DESCRIPTION_PRODUIT
+Type : VARCHAR
+Taille : 255,
+Commentaire : 
+
+Nom : Prix_produits
+Code : PRIX_PRODUITS
+Type : VARCHAR
+Taille : 255,
+Commentaire : 
+
+Nom : PRIX_PRODUIT
+Code : PRIX_PRODUIT
+Type : INT
+Taille : 50,
+Commentaire : 
+
+Nom : Quantité
+Code : QUANTITÉ
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : ID_COMMANDE
+Code : ID_COMMANDE
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : DATE_COMMANDE
+Code : DATE_COMMANDE
+Type : VARCHAR
+Taille : 255,
+Commentaire : 
+
+Nom : DATE_COMMANDE
+Code : DATE_COMMANDE
+Type : DATE
+Taille : ,
+Commentaire : 
+
+Nom : ID_PHOTO
+Code : ID_PHOTO
+Type : AUTO_INCREMENT
+Taille : 255,
+Commentaire : 
+
+Nom : Titre_photo
+Code : TITRE_PHOTO
+Type : VARCHAR
+Taille : 255,
+Commentaire : 
+
+Nom : Date_publication
+Code : DATE_PUBLICATION
+Type : DATETIME
+Taille : ,
+Commentaire : 
+
+Nom : Lien_publication
+Code : LIEN_PUBLICATION
+Type : VARCHAR
+Taille : 255,
+Commentaire : 
+
+Nom : ID_EVENEMENTS
+Code : ID_EVENEMENTS
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : Nom_évenemts
+Code : NOM_ÉVENEMTS
+Type : VARCHAR
+Taille : 255,
+Commentaire : 
+
+Nom : Description_évenements
+Code : DESCRIPTION_ÉVENEMENTS
+Type : VARCHAR
+Taille : 255,
+Commentaire : 
+
+Nom : Eligibilité
+Code : ELIGIBILITÉ
+Type : BOOL
+Taille : ,
+Commentaire : 
+
+Nom : Date_évenement
+Code : DATE_ÉVENEMENT
+Type : DATE
+Taille : ,
+Commentaire : 
+
+Nom : ID_ASSOCIATION
+Code : ID_ASSOCIATION
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : Nom_association
+Code : NOM_ASSOCIATION
+Type : VARCHAR
+Taille : 255,
+Commentaire : 
+
+Nom : Description_évenement
+Code : DESCRIPTION_ÉVENEMENT
+Type : VARCHAR
+Taille : 255,
+Commentaire : 
+
+Nom : Président_association
+Code : PRÉSIDENT_ASSOCIATION
+Type : VARCHAR
+Taille : 255,
+Commentaire : 
+
+Nom : ID_CATEGORIE
+Code : ID_CATEGORIE
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : NOM_CATEGORIE
+Code : NOM_CATEGORIE
+Type : VARCHAR
+Taille : 255,
+Commentaire : 
+
+Nom : ID_MEMBRE
+Code : ID_MEMBRE
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : NOM_MEMBRE
+Code : NOM_MEMBRE
+Type : VARCHAR
+Taille : 255,
+Commentaire : 
+
+Nom : DESCRIPTION_MEMBRE
+Code : DESCRIPTION_MEMBRE
+Type : VARCHAR
+Taille : 255,
+Commentaire : 
+
