@@ -71,7 +71,7 @@
               <span class="txt1">
                   no account?
               </span>
-              <a class="txt2" href="inscription.html">
+              <a class="txt2" href="/inscription">
                   Create a new 
               </a>
           </div>
@@ -93,7 +93,7 @@
                 <ul>
                     <li><a href="connexion.html">LOG IN</a></li>
                 </ul>
-                <p>If you DON'T<br> have an account <br><a href="#">Sign Up</a> here OR use<br>
+                <p>If you DON'T<br> have an account <br><a href="/inscription">Sign Up</a> here OR use<br>
                     <span id="facebk"><i class="fa fa-facebook"></i></span>
                     <span id="google"><i class="fa fa-google"></i></span>
                 </p>
