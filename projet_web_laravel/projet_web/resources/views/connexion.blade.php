@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>BDE CESI</title> 
+        <link rel="icon" href="image/logo.png">       
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="connexion1.css">
         <link rel="stylesheet" href="./assets/vendors/bootstrap/css/bootstrap.min.css">
@@ -16,7 +17,7 @@
     <body>
         <!--Home page: here is what appears at the home page-->
         <section id="face">
-            <img src="image/bde.png" id="BDE">
+            <img src="image/logo.png" id="BDE">
 
             <!--<div class="face-text">
                 <h1>Students Office</h1>
@@ -82,8 +83,8 @@
         <div id="sideNav">
             <nav> 
                 <ul>
-                    <li><a href="#face">HOME</a></li>
-                    <li><a href="#event">EVENT</a></li>
+                    <li><a href="/index">HOME</a></li>
+                    <li><a href="/event">EVENT</a></li>
                     <li><a href="#about">ABOUT US</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                     <li><a href="#">STORE</a></li>
@@ -91,7 +92,7 @@
             </nav>
             <div class="connect">
                 <ul>
-                    <li><a href="connexion.html">LOG IN</a></li>
+                    <li><a href="/connexion">LOG IN</a></li>
                 </ul>
                 <p>If you DON'T<br> have an account <br><a href="/inscription">Sign Up</a> here OR use<br>
                     <span id="facebk"><i class="fa fa-facebook"></i></span>

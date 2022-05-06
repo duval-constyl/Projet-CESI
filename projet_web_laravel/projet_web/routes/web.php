@@ -22,4 +22,7 @@ Route::get('/connexion', function () {
 Route::get('/inscription', function () {
     return view('inscription');
 });
+Route::get('/event', function () {
+    return view('event');
+});
 

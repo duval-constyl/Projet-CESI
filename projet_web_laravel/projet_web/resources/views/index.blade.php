@@ -2,9 +2,8 @@
 <html>
     <head>
         <title>BDE CESI</title> 
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="connexion1.css">
-        <link rel="stylesheet" href="connexion.css">
+        <link rel="icon" href="image/logo.png">
+     <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="./assets/vendors/bootstrap/css/bootstrap.min.css">
         <meta name="viewport" content="width =device-width, initial-scale =1">
         <link href="https://fonts.googleapis.com/css?
@@ -17,7 +16,7 @@
     <body>
         <!--Home page: here is what appears at the home page-->
         <section id="face">
-            <img src="image/bde.png" id="BDE">
+            <img src="image/logo.png" id="BDE">
             <div class="face-text">
                 <h1>Students Office</h1>
                 <p>Participate to differnts activity and event in your campus & buy food stuff</p>
@@ -31,11 +30,12 @@
         <div id="sideNav">
             <nav> 
                 <ul>
-                    <li><a href="#face">HOME</a></li>
-                    <li><a href="#event">EVENT</a></li>
+                    <li><a href="/index">HOME</a></li>
+                    <li><a href="/event">EVENT</a>
+                        <ul><li><a href="/connexion">Participate</a></li></ul></li>
                     <li><a href="#about">ABOUT US</a></li>
                     <li><a href="#contact">CONTACT</a></li>
-                    <li><a href="C:\Users\ALPHA-Z\OneDrive\Desktop\Projet WEB\projet-cesi\www\Boutique\index.html">STORE</a></li>
+                    <li><a href="#">STORE</a></li>
                 </ul>
             </nav>
             <div class="connect">

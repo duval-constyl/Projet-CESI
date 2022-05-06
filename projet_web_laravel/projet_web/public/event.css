@@ -1,0 +1,86 @@
+/*Passed event*/
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+#middle{
+    width: 100%;
+    padding: 70px 0;
+}
+.middle-row{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;  
+}
+.middle-col{
+    width: 15rem;
+    aspect-ratio: 1;
+    flex-basis: 28%;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px rgb(202, 201, 199);
+    cursor: pointer;
+    transition: transform .5s;
+}
+.middle-col p{
+    font-size: 12px;
+    line-height: 15px;
+}
+.event img{
+    width: 450px;
+    aspect-ratio: 1.5;
+    margin-right: 1px;
+    border-radius: 3px;
+    align-items: center;
+}
+.event-info small{
+    right: 20px;
+    line-height: 20px;
+    justify-content: flex-end;
+    font-size: 10px;
+    display: flex;
+}
+.icon-col{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 15px;
+}
+.like{
+    background: black;
+}
+.like:hover {
+    color: red;
+    transition: 0.4s;
+}
+.fas{
+    color: red;
+    transition: 0.4s;
+}
+
+@media screen and (max-width: 770px) {
+    #middle{
+        align-items: center;
+    }
+    .middle-col{
+        flex-basis: 40%;
+        padding: 30px;
+        margin-bottom: 60px; 
+    }
+    .middle-row{
+        width: 90%;   
+    }
+    .middle-col p{
+        font-size: 10px;
+    }
+    .event img{
+        width: 600px; 
+    }
+}
