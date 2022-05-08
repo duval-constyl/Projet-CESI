@@ -34,4 +34,8 @@ Route::get('/box_visiteurs', function () {
 Route::get('/box of idea', function () {
     return view('box of idea');
 });
+Route::get('/mentionslegales', function () {
+    return view('mentionslegales');
+});
+
 

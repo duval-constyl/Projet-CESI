@@ -137,8 +137,8 @@
             <span id="instagram"><i class="fa fa-instagram"></i></span>
             <span id="twitter"><i class="fa fa-twitter"></i></span>
             <span id="youtube"><i class="fa fa-youtube-play"></i> </span>
-            <p>&copy; bde.cesi@2022.ucac-icam.com | Designed by Groupe 1</p> 
-
+            <p>&copy; bde.cesi@2022.ucac-icam.com | Designed by Groupe 1©
+                <a href="/mentionslegales">Legal Notice</a>></p> 
         </div>
 
     </section>

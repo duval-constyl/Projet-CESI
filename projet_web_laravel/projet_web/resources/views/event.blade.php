@@ -264,8 +264,8 @@
                 <a href="https://www.instagram.com/"><span id="instagram"><i class="fa fa-instagram"></i></span></a>
                 <a href="https://twitter.com/"><span id="twitter"><i class="fa fa-twitter"></i></span></a>
                 <a href="https://www.youtube.com/"><span id="youtube"><i class="fa fa-youtube-play"></i> </span></a>
-                <p>&copy; bde.cesi@2022.ucac-icam.com | Designed by Groupe 1</p> 
-
+                <p>&copy; bde.cesi@2022.ucac-icam.com | Designed by Groupe 1©
+                <a href="/mentionslegales">Legal Notice</a>></p> 
             </div>
     
         </section>
