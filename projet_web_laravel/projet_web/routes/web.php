@@ -31,4 +31,7 @@ Route::get('/event', function () {
 Route::get('/box_visiteurs', function () {
     return view('box_visiteurs');
 });
+Route::get('/box of idea', function () {
+    return view('box of idea');
+});
 

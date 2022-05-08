@@ -7,11 +7,7 @@
 /*home page*/
 #face{/*background image with color gradient*/
     background: linear-gradient(rgba(0,0,0,0.5), rgb(235, 162, 28)), url(image/bde.png);
-    background-attachment:none;
-    position:center;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+   
 }
 
 #BDE{/*the bde logo*/
@@ -83,6 +79,25 @@ nav ul li a{
 nav ul li:hover{
     text-decoration: underline;
 }
+#pars{
+    color: white;
+    background: black; 
+    text-decoration: none;
+}
+#pars:hover{
+    background: white;
+    color: black;
+}
+nav ul li ul li {
+    font-size: 12px;
+    display: none;
+    text-decoration: none;
+}
+nav ul li:hover ul li{
+    display: block;
+    text-decoration: underline;
+    transform: translateY(-7px);
+}
 
 .connect{
     text-align: center; 
@@ -135,7 +150,7 @@ div ul li{
 }
 
 
-/*the buy stuff home page bottom*/
+/*the menu at the home page */
 #menuBtn{
     width: 50px;
     height: 50px;

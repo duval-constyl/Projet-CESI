@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
         <meta name="viewport" content="width =device-width, initial-scale =1">
         <link href="https://fonts.googleapis.com/css?family=Kaushan+script|Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/asset/vendors/FileSaver.js-master">
         <script src="https://kit.fontawesome.com/61a9b3dfaa.js" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     </head>
@@ -34,8 +35,9 @@
         <div id="sideNav">
             <nav> 
                 <ul>
-                    <li><a href="/index">HOME</a></li>
-                    <li><a href="/event">EVENT</a></li>
+                <li><a href="/index">HOME</a></li>
+                    <li><a href="#">EVENT</a>
+                        <ul><li><a href="/event" id="pars">Participate</a></li></ul></li>
                     <li><a href="#about">ABOUT US</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                     <li><a href="#">STORE</a></li>
@@ -47,8 +49,8 @@
                     <li><a href="/connexion">LOG IN</a></li>
                 </ul>
                 <p>If you DON'T<br> have an account <br><a href="/inscription">Sign Up</a> here OR use<br>
-                    <span id="facebk"><i class="fa fa-facebook"></i></span>
-                    <span id="google"><i class="fa fa-google"></i></span>
+                    <a href="https://fr-fr.facebook.com/"><span id="facebk"><i class="fa fa-facebook"></i></span></a>
+                    <a href="https://www.google.cm/"><span id="google"><i class="fa fa-google"></i></span></a>
                 </p>
             </div>
         </div>
@@ -63,6 +65,15 @@
             </div>
             <div class="middle-row">
                 <div class="middle-col">
+                    <div class="dots">
+                        <ul><li><img src="image/dot.jpg" class="dot">
+                            <ul>
+                                <li><a href="/event">Participate</a></li>
+                                <li><a href="">Modifier</a></li>
+                                <li><a href="">Supprimer</a></li>
+                            </ul> 
+                        </li></ul>
+                    </div>
                     <div class="event">
                         <img src="image/anniv.png" class="img-event">
                         <div class="event-info">
@@ -72,12 +83,21 @@
                     </div>
                     <p>We are to organise and celebrate the thirtieth anniversary of the school.</p>
                     <div class="icon-col">
-                        <span class="likes"><i onclick="Toggle()"  class="like" class="far fa-heart"></i></span>
-                        <span id="comment"><i class="fa-regular fa-comment"></i></span>
-                        <span id="dots"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                        <img src="icon/vide.png" class="like" onclick="likebutton()">
+                        <img src="icon/commenter.png" class="comment">
+                        <img src="icon/save.png" class="save">
                     </div>
                 </div>
                 <div class="middle-col">
+                    <div class="dots">
+                        <ul><li><img src="image/dot.jpg" class="dot">
+                            <ul>
+                                <li><a href="/event">Participate</a></li>
+                                <li><a href="">Modifier</a></li>
+                                <li><a href="">Supprimer</a></li>
+                            </ul> 
+                        </li></ul>
+                    </div>
                     <div class="event">
                         <img src="image/diver.jfif" class="img-event" >
                         <div class="event-info">
@@ -88,12 +108,21 @@
                     <p>During this week, we are to learn diversity culture of students on the campus. Groupe students for the 
                         same tribe or country and ask them to participate to different activities. </p>
                     <div class="icon-col">
-                        <span class="likes"><i onclick="Toggle()"  class="like" class="far fa-heart"></i></span>
-                        <span id="comment"><i class="fa-regular fa-comment"></i></span>
-                        <span id="dots"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                        <img src="icon/vide.png" class="like" onclick="likebutton()">
+                        <img src="icon/commenter.png" class="comment">
+                        <img src="icon/save.png" class="save">
                     </div>
                 </div>
                 <div class="middle-col">
+                    <div class="dots">
+                        <ul><li><img src="image/dot.jpg" class="dot">
+                            <ul>
+                                <li><a href="/event">Participate</a></li>
+                                <li><a href="">Modifier</a></li>
+                                <li><a href="">Supprimer</a></li>
+                            </ul> 
+                        </li></ul>
+                    </div>
                     <div class="event">
                         <img src="image/football.jfif" class="img-event">
                         <div class="event-info">
@@ -104,27 +133,46 @@
                     <p>This done at the beginning of every academic year where promotion will play football against
                         each other and at the end we give a price to the first of the Championship. </p>
                     <div class="icon-col">
-                        <span class="likes"><i onclick="Toggle()"  class="like" class="far fa-heart"></i></span>
-                        <span id="comment"><i class="fa-regular fa-comment"></i></span>
-                        <span id="dots"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                        <img src="icon/vide.png" class="like" onclick="likebutton()">
+                        <img src="icon/commenter.png" class="comment">
+                        <img src="icon/save.png" class="save">
                     </div>
                 </div>
                 <div class="middle-col">
+                    <div class="dots">
+                        <ul><li><img src="image/dot.jpg" class="dot">
+                            <ul>
+                                <li><a href="">Participate</a></li>
+                                <li><a href="">Modifier</a></li>
+                                <li><a href="">Supprimer</a></li>
+                            </ul> 
+                        </li></ul>
+                    </div>
                     <div class="event">
-                        <img src="image/pool1.jfif" class="img-event">
+                        <img src="image/tech.jfif" class="img-event">
                         <div class="event-info">
                             <h4>Futur event</h4>
                             <small>douala, 18/06/2022</small>
                         </div>
                     </div>
-                    <p>Always done at the end of every to 2 month to help students to interact with each other. </p>
+                    <p>Technology tournament,the school organises a competition for other school in other to price 
+                        the best innovating technology. </p>
                     <div class="icon-col">
-                        <span class="likes"><i onclick="Toggle()"  class="like" class="far fa-heart"></i></span>
-                        <span id="comment"><i class="fa-regular fa-comment"></i></span>
-                        <span id="dots"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                        <img src="icon/vide.png" class="like" onclick="likebutton()">
+                        <img src="icon/commenter.png" class="comment">
+                        <img src="icon/save.png" class="save">
                     </div>
                 </div>
                 <div class="middle-col">
+                    <div class="dots">
+                        <ul><li><img src="image/dot.jpg" class="dot">
+                            <ul>
+                                <li><a href="">Participate</a></li>
+                                <li><a href="">Modifier</a></li>
+                                <li><a href="">Supprimer</a></li>
+                            </ul> 
+                        </li></ul>
+                    </div>
                     <div class="event">
                         <img src="image/soire.jfif" class="img-event">
                         <div class="event-info">
@@ -135,12 +183,21 @@
                     <p>This event is especially for new members(students) in school in other for them to know each other
                         and attribute to them godfathers  .</p>
                     <div class="icon-col">
-                        <span class="likes"><i onclick="Toggle()"  class="like" class="far fa-heart"></i></span>
-                        <span id="comment"><i class="fa-regular fa-comment"></i></span>
-                        <span id="dots"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                        <img src="icon/vide.png" class="like" onclick="likebutton()">
+                        <img src="icon/commenter.png" class="comment">
+                        <img src="icon/save.png" class="save">
                     </div>
                 </div>
                 <div class="middle-col">
+                    <div class="dots">
+                        <ul><li><img src="image/dot.jpg" class="dot">
+                            <ul>
+                                <li><a href="">Participate</a></li>
+                                <li><a href="">Modifier</a></li>
+                                <li><a href="">Supprimer</a></li>
+                            </ul> 
+                        </li></ul>
+                    </div>
                     <div class="event">
                         <img src="image/pool1.jfif" class="img-event">
                         <div class="event-info">
@@ -150,9 +207,9 @@
                     </div>
                     <p>Always done at the end of every to 2 month to help students to interact with each other. </p>
                     <div class="icon-col">
-                        <span class="likes"><i onclick="Toggle()"  class="like" class="far fa-heart"></i></span>
-                        <span id="comment"><i class="fa-regular fa-comment"></i></span>
-                        <span id="dots"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                        <img src="icon/vide.png" class="like" onclick="likebutton()">
+                        <img src="icon/commenter.png" class="comment">
+                        <img src="icon/save.png" class="save" onclick="getFileName()">
                     </div>
                 </div>
             </div>
@@ -203,10 +260,10 @@
                 </div>
             </div>
             <div class="social-links"><!--this class include ours different social media pages-->
-                <span id="facebook"><i class="fa fa-facebook"></i></span>
-                <span id="instagram"><i class="fa fa-instagram"></i></span>
-                <span id="twitter"><i class="fa fa-twitter"></i></span>
-                <span id="youtube"><i class="fa fa-youtube-play"></i> </span>
+                <a href="https://fr-fr.facebook.com/"><span id="facebook"><i class="fa fa-facebook"></i></span></a>
+                <a href="https://www.instagram.com/"><span id="instagram"><i class="fa fa-instagram"></i></span></a>
+                <a href="https://twitter.com/"><span id="twitter"><i class="fa fa-twitter"></i></span></a>
+                <a href="https://www.youtube.com/"><span id="youtube"><i class="fa fa-youtube-play"></i> </span></a>
                 <p>&copy; bde.cesi@2022.ucac-icam.com | Designed by Groupe 1</p> 
 
             </div>
@@ -221,7 +278,7 @@
             var about = document.getElementById("about")
             var event = document.getElementById("middle")
             var contact = document.getElementById("contact")
-            var like = document.getElementsByClassName("like")
+            
             
 
             sideNav.style.right == "-180px";
@@ -262,14 +319,33 @@
 	            speedAsDuration: true
                 });
 
-            
-            
-            function Toggle(){
-                like.classList.toggle("far");
-                like.classList.toggle("fas");
+            function likebutton(){
+                let like = document.querySelector('.like')
+                if(like.src.match("icon/vide.png")) {
+                    like.src = "icon/rouge.png"
+                }
+                else{
+                    like.src = "icon/vide.png"
+                }
+                
             }
+
+                let btnDownload = document.querySelector('.save');
+                let img = document.querySelector('.img-event');
+                // Must use FileSaver.js 2.0.2 because 2.0.3 has issues.
+                btnDownload.addEventListener('click', () => {
+                    let imagePath = img.getAttribute('.img-event');
+                    let fileName = getFileName(imagePath);
+                    saveAs(imagePath, fileName);
+                });
+                function getFileName(str) {
+                    return str.substring(str.lastIndexOf('/') + 1)
+                }
+          
             
         </script>
+        <script src="./asset/vendors/FileSaver.js-2.0.4"></script>
+        <script src="www/FileSaver.js"></script>
 
     </body>
 </html>

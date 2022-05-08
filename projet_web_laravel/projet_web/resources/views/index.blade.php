@@ -3,7 +3,7 @@
     <head>
         <title>BDE CESI</title> 
         <link rel="icon" href="image/logo.png">
-     <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="./assets/vendors/bootstrap/css/bootstrap.min.css">
         <meta name="viewport" content="width =device-width, initial-scale =1">
         <link href="https://fonts.googleapis.com/css?
@@ -31,8 +31,8 @@
             <nav> 
                 <ul>
                     <li><a href="/index">HOME</a></li>
-                    <li><a href="/event">EVENT</a>
-                        <ul><li><a href="/connexion">Participate</a></li></ul></li>
+                    <li><a href="#">EVENT</a>
+                        <ul><li><a href="/event" id="pars">Participate</a></li></ul></li>
                     <li><a href="#about">ABOUT US</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                     <li><a href="#">STORE</a></li>
@@ -44,8 +44,8 @@
                     <li><a href="/connexion">LOG IN</a></li>
                 </ul>
                 <p>If you DON'T<br> have an account <br><a href="/inscription">Sign Up</a> here OR use<br>
-                    <span id="facebk"><i class="fa fa-facebook"></i></span>
-                    <span id="google"><i class="fa fa-google"></i></span>
+                    <a href="https://fr-fr.facebook.com/"><span id="facebk"><i class="fa fa-facebook"></i></span></a>
+                    <a href="https://www.google.cm/"><span id="google"><i class="fa fa-google"></i></span></a>
                 </p>
             </div>
         </div>
@@ -178,10 +178,10 @@
                 </div>
             </div>
             <div class="social-links"><!--this class include ours different social media pages-->
-                <span id="facebook"><i class="fa fa-facebook"></i></span>
-                <span id="instagram"><i class="fa fa-instagram"></i></span>
-                <span id="twitter"><i class="fa fa-twitter"></i></span>
-                <span id="youtube"><i class="fa fa-youtube-play"></i> </span>
+                <a href="https://fr-fr.facebook.com/"><span id="facebook"><i class="fa fa-facebook"></i></span></a>
+                <a href="https://www.instagram.com/"><span id="instagram"><i class="fa fa-instagram"></i></span></a>
+                <a href="https://twitter.com/"><span id="twitter"><i class="fa fa-twitter"></i></span></a>
+                <a href="https://www.youtube.com/"><span id="youtube"><i class="fa fa-youtube-play"></i> </span></a>
                 <p>&copy; bde.cesi@2022.ucac-icam.com | Designed by Groupe 1</p> 
 
             </div>

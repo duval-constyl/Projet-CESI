@@ -38,24 +38,7 @@
         </div>
           <!--connexion au site-->
           <div class="login100-form-title p-b-32">Suggestion box
-        </div> 
-          <!--entrer de l'e-mail-->
-          <div class="wrap-input100 validate-input" data-validate = "put your address e-mail">
-              <input class="input100" type="email" name="email_connexion">
-              <span class="focus-input100" data-placeholder="Email"></span>	
-          </div>
-         <!--message d'erreur de l'e-mail-->
-          <div class="email_error input-error"></div>
-        <!--entrer le pseudo-->
-          <div class="wrap-input100 validate-input" data-validate="Enter your pseudo">
-              <span class="btn-show-pass">
-                  <i class="zmdi zmdi-eye"></i>
-              </span>
-              <input class="input100" type="text" name="password_connexion">
-              <span class="focus-input100" data-placeholder="your pseudo "></span>
-          </div>
-          <!--erreur du mot de passe-->
-          <div class="password_error input-error"></div>
+        </div>  
           <br>
            <!--entrer de la suggestion-->
            <label for="subject"><b>Description</b></label>
@@ -93,7 +76,8 @@
                     <li><a href="/event">EVENT</a></li>
                     <li><a href="#about">ABOUT US</a></li>
                     <li><a href="#contact">CONTACT</a></li>
-                    <li><a href="#">STORE</a></li>
+                    <li><a href="/box of idea pour visiteurs">STORE</a></li>
+                    <li><a href="/box of idea">SUGGESTION BOX</a></li>
                 </ul>
             </nav>
             <div class="connect">
