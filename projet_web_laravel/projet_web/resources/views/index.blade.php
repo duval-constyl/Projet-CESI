@@ -30,7 +30,7 @@
         <div id="sideNav">
             <nav> 
                 <ul>
-                    <li><a href="/index">HOME</a></li>
+                    <li><a href="/comment">HOME</a></li>
                     <li><a href="#">EVENT</a>
                         <ul><li><a href="/event" id="pars">Participate</a></li></ul></li>
                     <li><a href="#about">ABOUT US</a></li>

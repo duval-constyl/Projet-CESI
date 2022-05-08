@@ -37,5 +37,8 @@ Route::get('/box of idea', function () {
 Route::get('/mentionslegales', function () {
     return view('mentionslegales');
 });
+Route::get('/comment', function () {
+    return view('comment');
+});
 
 

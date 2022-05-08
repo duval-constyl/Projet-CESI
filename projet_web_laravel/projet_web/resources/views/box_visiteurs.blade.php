@@ -27,7 +27,7 @@
                 </div>
             </div>-->
 
-<!--formulaire de la boite idées-->
+            !--formulaire de la boite idées-->
 <!--initialisation du logo  du site-->
 <div class="wrap-login100">
     <div class="zone">
@@ -72,6 +72,7 @@
                   </button>
               </div>
           </div>
+
           <br>
           <br>
           <!--pas de compte et proposition de creation d'un-->
@@ -89,7 +90,7 @@
         <div id="sideNav">
             <nav> 
                 <ul>
-                    <li><a href="/index">HOME</a></li>
+                    <li><a href="/comment">HOME</a></li>
                     <li><a href="/event">EVENT</a></li>
                     <li><a href="#about">ABOUT US</a></li>
                     <li><a href="#contact">CONTACT</a></li>
@@ -137,8 +138,7 @@
             <span id="instagram"><i class="fa fa-instagram"></i></span>
             <span id="twitter"><i class="fa fa-twitter"></i></span>
             <span id="youtube"><i class="fa fa-youtube-play"></i> </span>
-            <p>&copy; bde.cesi@2022.ucac-icam.com | Designed by Groupe 1©
-                <a href="/mentionslegales">Legal Notice</a>></p> 
+
         </div>
 
     </section>

@@ -3,8 +3,9 @@
     <head>
         <title>BDE CESI</title> 
         <link rel="icon" href="image/logo.png">
-        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="event.css">
+        <link rel="stylesheet" href="style idea.css">
+        <link rel="stylesheet" href="idea.css">
         <link rel="stylesheet" href="./assets/vendors/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="./assets/vendors/fontawesome/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web">
@@ -25,7 +26,7 @@
                 <h1>Events & Activities</h1>
                 <p>Participate to differnts activities and events </p>
                 <div class="face-btn">
-                    <a href="#">Add Event</a>
+                    <a href="/event">Add Event</a>
                 </div>
             </div>
             
