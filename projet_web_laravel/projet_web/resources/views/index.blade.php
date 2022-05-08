@@ -36,6 +36,7 @@
                     <li><a href="#about">ABOUT US</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                     <li><a href="#">STORE</a></li>
+                    <li><a href="/box_visiteurs">SUGGESTION BOX</a></li>
                 </ul>
             </nav>
             <div class="connect">

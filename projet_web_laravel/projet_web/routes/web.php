@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/index', function () {
+    return view('index');
+});
 Route::get('/connexion', function () {
     return view('connexion');
 });
@@ -24,5 +27,8 @@ Route::get('/inscription', function () {
 });
 Route::get('/event', function () {
     return view('event');
+});
+Route::get('/box_visiteurs', function () {
+    return view('box_visiteurs');
 });
 

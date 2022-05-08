@@ -3,8 +3,8 @@
     <head>
         <title>BDE CESI</title> 
         <link rel="icon" href="image/logo.png">       
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="connexion1.css">
+        <link rel="stylesheet" href="style idea.css">
+        <link rel="stylesheet" href="idea.css">
         <link rel="stylesheet" href="./assets/vendors/bootstrap/css/bootstrap.min.css">
         <meta name="viewport" content="width =device-width, initial-scale =1">
         <link href="https://fonts.googleapis.com/css?
@@ -15,8 +15,8 @@
     </head>
 
     <body>
-        <!--Home page: here is what appears at the home page-->
-        <section id="face">
+          <!--Home page: here is what appears at the home page-->
+          <section id="face">
             <img src="image/logo.png" id="BDE">
 
             <!--<div class="face-text">
@@ -26,18 +26,19 @@
                     <a href="#">BUY STUFF</a>
                 </div>
             </div>-->
-            
-<!--formulaire de connexion au site-->
-<!--initialisation du logo de connexion du site-->
+
+<!--formulaire de la boite idées-->
+<!--initialisation du logo  du site-->
 <div class="wrap-login100">
     <div class="zone">
       <form class="login100-form connexion-form" enctype="multipart/form-data">
-        <!--initialisation du logo de connexion du site-->  
+        <!--initialisation du logo  du site-->  
           <div class="login100-form-title p-b-26">
           <img class="logo rounded-circle img-thumbnail" src="image/bde.jpg" alt="Logo du BDE" title="logo du BDE" width="20%" height="35%" class="d-inline-block align-top">
         </div>
           <!--connexion au site-->
-          <div class="login100-form-title p-b-32">Connexion</div> 
+          <div class="login100-form-title p-b-32">Suggestion box
+        </div> 
           <!--entrer de l'e-mail-->
           <div class="wrap-input100 validate-input" data-validate = "put your address e-mail">
               <input class="input100" type="email" name="email_connexion">
@@ -45,23 +46,30 @@
           </div>
          <!--message d'erreur de l'e-mail-->
           <div class="email_error input-error"></div>
-        <!--entrer le mot de passe du compte-->
-          <div class="wrap-input100 validate-input" data-validate="Enter your password">
+        <!--entrer le pseudo-->
+          <div class="wrap-input100 validate-input" data-validate="Enter your pseudo">
               <span class="btn-show-pass">
                   <i class="zmdi zmdi-eye"></i>
               </span>
-              <input class="input100" type="password" name="password_connexion">
-              <span class="focus-input100" data-placeholder="your password "></span>
+              <input class="input100" type="text" name="password_connexion">
+              <span class="focus-input100" data-placeholder="your pseudo "></span>
           </div>
           <!--erreur du mot de passe-->
           <div class="password_error input-error"></div>
           <br>
+           <!--entrer de la suggestion-->
+           <label for="subject"><b>Description</b></label>
+            <textarea id="subject" name="subject">
+                <span class="focus-input100" placeholder="Questions, suggestions for improvements or anything, we listen to you......"></span>
+
+            </textarea>
+
           <!--bouton de connexion-->
           <div class="container-login100-form-btn">
               <div class="wrap-login100-form-btn">
                   <div class="login100-form-bgbtn"></div>
                   <button class="login100-form-btn">
-                      connexion
+                      Send
                   </button>
               </div>
           </div>
@@ -76,7 +84,6 @@
                   Create a new 
               </a>
           </div>
-      </form>
         </section>
 
         <!--here we are to create the menu tap bar which will help us in navigating in ours site-->
@@ -87,7 +94,7 @@
                     <li><a href="/event">EVENT</a></li>
                     <li><a href="#about">ABOUT US</a></li>
                     <li><a href="#contact">CONTACT</a></li>
-                    <li><a href="#">STORE</a></li>
+                    <li><a href="/box of idea pour visiteurs">STORE</a></li>
                     <li><a href="/box_visiteurs">SUGGESTION BOX</a></li>
                 </ul>
             </nav>
@@ -187,6 +194,7 @@
         
     </script>
 
-</body>
-</html>     
-    
+
+        </body>
+        </html>     
+             
