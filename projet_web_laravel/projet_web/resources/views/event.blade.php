@@ -43,6 +43,8 @@
                     <li><a href="#contact">CONTACT</a></li>
                     <li><a href="#">STORE</a></li>
                     <li><a href="/box_visiteurs">SUGGESTION BOX</a></li>
+                    <li><a href="/publications">New Post</a></li>
+
                 </ul>
             </nav>
             <div class="connect">
@@ -110,7 +112,7 @@
                         same tribe or country and ask them to participate to different activities. </p>
                     <div class="icon-col">
                         <img src="icon/vide.png" class="like" onclick="likebutton()">
-                        <img src="icon/commenter.png" class="comment">
+                        <img src="icon/commenter.png" class="comment" <li><a href="/comment"></a></li>>
                         <img src="icon/save.png" class="save">
                     </div>
                 </div>

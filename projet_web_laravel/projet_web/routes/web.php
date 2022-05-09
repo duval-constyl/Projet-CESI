@@ -64,5 +64,11 @@ Route::get('/product-2', function () {
 Route::get('/product-2-details', function () {
     return view('product-2-details');
 });
+Route::get('/publications', function () {
+    return view('publications');
+});
+Route::get('/conditions', function () {
+    return view('conditions');
+});
 
 

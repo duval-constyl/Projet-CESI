@@ -3,8 +3,9 @@
     <head>
         <title>BDE CESI</title> 
         <link rel="icon" href="image/logo.png">       
-        <link rel="stylesheet" href="style idea3.css">
+        <link rel="stylesheet" href="style idea2.css">
         <link rel="stylesheet" href="connexion1.css">
+        <link rel="stylesheet" href="idea.css">
         <link rel="stylesheet" href="./assets/vendors/bootstrap/css/bootstrap.min.css">
         <meta name="viewport" content="width =device-width, initial-scale =1">
         <link href="https://fonts.googleapis.com/css?
@@ -15,8 +16,8 @@
     </head>
 
     <body>
-        <!--Home page: here is what appears at the home page-->
-        <section id="face">
+          <!--Home page: here is what appears at the home page-->
+          <section id="face">
             <img src="image/logo.png" id="BDE">
 
             <!--<div class="face-text">
@@ -26,60 +27,55 @@
                     <a href="#">BUY STUFF</a>
                 </div>
             </div>-->
-            
-<!--formulaire de connexion au site-->
-<!--initialisation du logo de connexion du site-->
+
+            <!--formulaire de la boite idées-->
+<!--initialisation du logo  du site-->
 <div class="wrap-login100">
     <div class="zone">
       <form class="login100-form connexion-form" enctype="multipart/form-data">
-        <!--initialisation du logo de connexion du site-->  
+        <!--initialisation du logo  du site-->  
           <div class="login100-form-title p-b-26">
           <img class="logo rounded-circle img-thumbnail" src="image/bde.jpg" alt="Logo du BDE" title="logo du BDE" width="20%" height="35%" class="d-inline-block align-top">
         </div>
           <!--connexion au site-->
-          <div class="login100-form-title p-b-32">Connexion</div>
-          <br>
-          <div class="youremail"><p>E-mail</p></div> 
-          <!--entrer de l'e-mail-->
-          <div class="wrap-input100 validate-input" data-validate = "put your address e-mail">
-              <input class="input100" type="email" name="email_connexion">
-              <span class="focus-input100" data-placeholder=""></span>	
-          </div>
-         <!--message d'erreur de l'e-mail-->
-          <div class="email_error input-error"></div>
-          <div class="youremail"><p>Your password</p></div> 
-        <!--entrer le mot de passe du compte-->
-          <div class="wrap-input100 validate-input" data-validate="Enter your password">
-              <span class="btn-show-pass">
-                  <i class="zmdi zmdi-eye"></i>
-              </span>
-              <input class="input100" type="password" name="password_connexion">
-              <span class="focus-input100" data-placeholder=""></span>
-          </div>
-          <!--erreur du mot de passe-->
-          <div class="password_error input-error"></div>
-          <br>
+          <div class="login100-form-title p-b-32">we respect your private life
+        </div> 
+        <div><p>With your consent,our partners and we use cookies or similar technologies for storing and accessing information
+            personal as your visit to this site. You can withdraw your
+            consent or object to processing based on the legitimate interest of
+            any time by clicking on "Learn more" or in our policy of
+            privacy on this site.
+        </p><br>
+        <p><b>     Together with our partners, we process the following data:      </b></p>
+        <br>
+        <p>Precise geolocation data and identification by analysis of the
+            terminal. Personalized Ads and Content. performance measurement of
+            advertisements and content, audience data and product development.
+            Store and/or access information on a terminal.
+</p>
+    </div>
+                    
           <!--bouton de connexion-->
           <div class="container-login100-form-btn">
               <div class="wrap-login100-form-btn">
                   <div class="login100-form-bgbtn"></div>
-                  <button class="login100-form-btn"<li><a href="/conditions">connexion</a></li>
-                     
+                  <button class="login100-form-btn">
+                      Accept & Close
                   </button>
               </div>
           </div>
+
           <br>
           <br>
           <!--pas de compte et proposition de creation d'un-->
           <div class="text-center p-t-25">
               <span class="txt1">
-                  no account?
+                  Don't accept?
               </span>
-              <a class="txt2" href="/inscription">
-                  Create a new 
+              <a class="txt2" href="/index">
+                  Close 
               </a>
           </div>
-      </form>
         </section>
 
         <!--here we are to create the menu tap bar which will help us in navigating in ours site-->
@@ -90,8 +86,8 @@
                     <li><a href="/event">EVENT</a></li>
                     <li><a href="#about">ABOUT US</a></li>
                     <li><a href="#contact">CONTACT</a></li>
-                    <li><a href="#">STORE</a></li>
-                    <li><a href="/box_visiteurs">SUGGESTION BOX</a></li>
+                    <li><a href="/box of idea pour visiteurs">STORE</a></li>
+
                 </ul>
             </nav>
             <div class="connect">
@@ -134,8 +130,7 @@
             <span id="instagram"><i class="fa fa-instagram"></i></span>
             <span id="twitter"><i class="fa fa-twitter"></i></span>
             <span id="youtube"><i class="fa fa-youtube-play"></i> </span>
-            <p>&copy; bde.cesi@2022.ucac-icam.com | Designed by Groupe 1©
-                <a href="/mentionslegales">Legal Notice</a>></p> 
+
         </div>
 
     </section>
@@ -190,6 +185,7 @@
         
     </script>
 
-</body>
-</html>     
-    
+
+        </body>
+        </html>     
+             
