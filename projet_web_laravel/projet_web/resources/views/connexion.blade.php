@@ -37,21 +37,24 @@
           <img class="logo rounded-circle img-thumbnail" src="image/bde.jpg" alt="Logo du BDE" title="logo du BDE" width="20%" height="35%" class="d-inline-block align-top">
         </div>
           <!--connexion au site-->
-          <div class="login100-form-title p-b-32">Connexion</div> 
+          <div class="login100-form-title p-b-32">Connexion</div>
+          <br>
+          <div class="youremail"><p>E-mail</p></div> 
           <!--entrer de l'e-mail-->
           <div class="wrap-input100 validate-input" data-validate = "put your address e-mail">
               <input class="input100" type="email" name="email_connexion">
-              <span class="focus-input100" data-placeholder="Email"></span>	
+              <span class="focus-input100" data-placeholder=""></span>	
           </div>
          <!--message d'erreur de l'e-mail-->
           <div class="email_error input-error"></div>
+          <div class="youremail"><p>Your password</p></div> 
         <!--entrer le mot de passe du compte-->
           <div class="wrap-input100 validate-input" data-validate="Enter your password">
               <span class="btn-show-pass">
                   <i class="zmdi zmdi-eye"></i>
               </span>
               <input class="input100" type="password" name="password_connexion">
-              <span class="focus-input100" data-placeholder="your password "></span>
+              <span class="focus-input100" data-placeholder=""></span>
           </div>
           <!--erreur du mot de passe-->
           <div class="password_error input-error"></div>

@@ -41,37 +41,32 @@
           <div class="login100-form-title p-b-32">LEGAL NOTICE
         </div>  
           <br>
-           <!--entrer de la suggestion-->
-           <h3>LEGAL NOTICE</h3>
-           <h1>Effective as of 08/05/22</h1>
-           <p>
-           In accordance with the provisions of Articles 6-III and 19 of Law No. 2004-575 of June 21, 2004 for Confidence in the Digital Economy, known as L.C.E.N., it is brought to the attention of users and visitors, hereinafter the " "User", of the site www.ucac_icam_bde.com, hereinafter the "Site", these legal notices.</p>
+            <h3>ARTICLE 3 - ACCESS TO THE SITE</h3>
             <br>
-              <br>
-              <p>The connection and navigation on the Site by the User implies full and unreserved acceptance of these "legal notices".
-               </p>
+            <p> The Site is accessible anywhere, 7 days a week, 24 hours a day, except in cases of force majeure, scheduled or unscheduled interruption and possibly resulting from a need for maintenance.
+             </p>
             <br>
-            <h3>ARTICLE 1 - THE EDITOR</h3>
-             <br><br>
-             <p>Editing and management of the publication of the Site is provided by GROUPE 1, domiciled at UCAC-Icam promotion x-2025, whose telephone number is 698068386, and the e-mail address kevin.ekabana@2025.ucac-icam .com.</p>   
+            <p>In the event of modification, interruption or suspension of the Site, the Publisher cannot be held responsible.</p>
             <br>
+            <h3>ARTICLE 4 - DATA COLLECTION</h3>
             <br>
-            <p>hereinafter the "Publisher".</p>
+            <p>The Site provides the User with the collection and processing of personal information with respect for privacy in accordance with Law No. 78-17 of January 6, 1978 relating to data processing, files and freedoms.</p>
             <br>
+            <p>Under the Data Protection Act, dated January 6, 1978, the User has the right to access, rectify, delete and oppose his personal data. The User exercises this right:</p>
             <br>
-            <h3>ARTICLE 2 - THE HOST</h3>
+            <p>· by email to the email address kevin.ekabana@2025.ucac-icam.com</p>
+            <p>· by post to kevin.ekabana@2025.ucac-icam.com;</p>
+            <p>· via a contact form;</p>
+            <p>· via his personal space;</p>
             <br>
-            <p>The host of the Site is the company _______________, whose head office is located at _______________, with the telephone number: _______________ + contact email address</p>
-            <br>
-            
-            <!--bouton de connexion-->
-          <div class="container-login100-form-btn">
-              <div class="wrap-login100-form-btn">
-                  <div class="login100-form-bgbtn"></div>
-                  <button  class="login100-form-btn"  <li> <a href="/mentionslegales2" >NEXT</a></li>  
-                  </button>
-              </div>
-          </div>
+            <p>Toute utilisation, reproduction, diffusion, commercialisation, modification de toute ou partie du Site, sans autorisation de l’Editeur est prohibée et pourra entraînée des actions et poursuites judiciaires telles que notamment prévues par le Code de la propriété intellectuelle et le Code civil.
+            </p>
+            <br></br>
+            <br></br>
+            <p>For more information, refer to the T&Cs of the site www.ucac_icam_bde.com accessible under the "T&Cs" section.
+For more information, refer to the T&Cs of the site www.ucac_icam_bde.com accessible under the "T&Cs" section.
+For more information on the protection of personal data, refer to the Charter on the protection of personal data on the site www.ucac_icam_bde.com accessible under the heading "Personal data".
+For more information on cookies, refer to the Cookies Charter of the site www.ucac_icam_bde.com accessible in the "Cookies" section.</p>
           <br>
           <br>
           <!--pas de compte et proposition de creation d'un-->

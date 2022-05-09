@@ -4,7 +4,7 @@
         <title>BDE CESI</title> 
         <link rel="icon" href="image/logo.png">
         <link rel="stylesheet" href="idea.css">
-        <link rel="stylesheet" href="style idea.css">
+        <link rel="stylesheet" href="style idea2.css">
         <link rel="stylesheet" href="event.css"> 
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="connexion1.css">       

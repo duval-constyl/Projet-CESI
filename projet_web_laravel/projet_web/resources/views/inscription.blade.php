@@ -3,7 +3,7 @@
     <head>
         <title>BDE CESI</title> 
 		<link rel="icon" href="image/logo.png">
-        <link rel="stylesheet" href="style idea.css">
+        <link rel="stylesheet" href="style idea2.css">
         <link rel="stylesheet" href="connexion.css">
         <link rel="stylesheet" href="./assets/vendors/bootstrap/css/bootstrap.min.css">
         <meta name="viewport" content="width =device-width, initial-scale =1">
@@ -38,32 +38,37 @@
 			<img class="logo rounded-circle img-thumbnail" src="image/bde.jpg" alt="Logo du BDE" title="logo du BDE" width="20%" height="35%" class="d-inline-block align-top">
                     </div>
 		<!--insertion du titre du  formulaire d'inscription-->
-                    <div class="login100-form-title p-b-32">Inscription</div>  
+                    <div class="login100-form-title p-b-32">Inscription</div>
+					<br>
+					<div class="youremail"><p>Last Name</p></div>   
 					<!--insertion du nom-->
                   <div class="wrap-input100 validate-input" data-validate = "Enter your second name">
 						<input class="input100" type="text" name="nom_inscription">
-						<span class="focus-input100" data-placeholder="Name"></span>	
+						<span class="focus-input100" data-placeholder=""></span>	
 					</div>
                     <div class="nom_error input-error"></div>
+					<div class="youremail"><p>First Name</p></div> 
 					<!--insertion du prenom-->
                     <div class="wrap-input100 validate-input" data-validate = "enter your first name">
 						<input class="input100" type="text" name="prenom_inscription">
-						<span class="focus-input100" data-placeholder="fist name"></span>	
+						<span class="focus-input100" data-placeholder=""></span>	
 					</div>
                     <div class="prenom_error input-error"></div>
+					<div class="youremail"><p>E-mail</p></div> 
                     <!--insertion de l'addresse e-mail-->
                     <div class="wrap-input100 validate-input" data-validate = "Enter your e-mail">
 						<input class="input100" type="email" name="email_inscription">
-						<span class="focus-input100" data-placeholder="E-mail"></span>	
+						<span class="focus-input100" data-placeholder=""></span>	
 					</div>
                     <div class="email_error input-error"></div>
+					<div class="youremail"><p>Password</p></div> 
 					<!--insertion du mot de passe-->
                     <div class="wrap-input100 validate-input" data-validate="Enter your password">
 						<span class="btn-show-pass">
 							<i class="zmdi zmdi-eye"></i>
 						</span>
 						<input class="input100" type="password" name="password_inscription">
-						<span class="focus-input100" data-placeholder="your Password"></span>
+						<span class="focus-input100" data-placeholder=""></span>
 					</div>
                     <div class="password_error input-error"></div>
 

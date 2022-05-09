@@ -40,5 +40,11 @@ Route::get('/mentionslegales', function () {
 Route::get('/comment', function () {
     return view('comment');
 });
+Route :: get ('/gestApp', function () {
+    return view('gestApp');
+});
+Route::get('/mentionslegales2', function () {
+    return view('mentionslegales2');
+});
 
 

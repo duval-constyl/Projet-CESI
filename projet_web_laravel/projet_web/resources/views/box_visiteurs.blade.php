@@ -3,7 +3,7 @@
     <head>
         <title>BDE CESI</title> 
         <link rel="icon" href="image/logo.png">       
-        <link rel="stylesheet" href="style idea.css">
+        <link rel="stylesheet" href="style idea2.css">
         <link rel="stylesheet" href="idea.css">
         <link rel="stylesheet" href="./assets/vendors/bootstrap/css/bootstrap.min.css">
         <meta name="viewport" content="width =device-width, initial-scale =1">
@@ -27,7 +27,7 @@
                 </div>
             </div>-->
 
-            !--formulaire de la boite idées-->
+            <!--formulaire de la boite idées-->
 <!--initialisation du logo  du site-->
 <div class="wrap-login100">
     <div class="zone">

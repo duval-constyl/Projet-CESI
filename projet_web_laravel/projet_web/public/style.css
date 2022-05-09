@@ -6,8 +6,12 @@
 
 /*home page*/
 #face{/*background image with color gradient*/
-    background: linear-gradient(rgba(0,0,0,0.5), rgb(235, 162, 28)), url(image/bde.png);
-   
+    background: linear-gradient(rgba(0,0,0,0.5), rgb(235, 162, 28));
+    background-attachment:none;
+    position:center;
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
 }
 
 #BDE{/*the bde logo*/
