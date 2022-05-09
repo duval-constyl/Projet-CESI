@@ -46,5 +46,23 @@ Route :: get ('/gestApp', function () {
 Route::get('/mentionslegales2', function () {
     return view('mentionslegales2');
 });
+Route::get('/boutique', function () {
+    return view('boutique');
+});
+Route::get('/products', function () {
+    return view('products');
+});
+Route::get('/cart', function () {
+    return view('cart');
+});
+Route::get('/product-details', function () {
+    return view('product-details');
+});
+Route::get('/product-2', function () {
+    return view('product-2');
+});
+Route::get('/product-2-details', function () {
+    return view('product-2-details');
+});
 
 

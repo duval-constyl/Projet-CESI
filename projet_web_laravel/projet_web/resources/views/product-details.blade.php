@@ -2,9 +2,10 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" href="image/logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>All Products - Red store</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style boutique.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
       rel="stylesheet"
@@ -46,20 +47,20 @@
     <div class="small-container single-product">
       <div class="row">
         <div class="col-2">
-          <img src="images/product-2.jpg" width="100%" id="ProductImg" />
+          <img src="images/gallery-1.jpg" width="100%" id="ProductImg" />
 
           <div class="small-img-row">
             <div class="small-img-col">
-              <img src="images/product-2.jpg" class="small-img" />
+              <img src="images/gallery-1.jpg" class="small-img" />
             </div>
             <div class="small-img-col">
-              <img src="images/product-2.jpg" class="small-img" />
+              <img src="images/gallery-2.jpg" class="small-img" />
             </div>
             <div class="small-img-col">
-              <img src="images/product-2.jpg" class="small-img" />
+              <img src="images/gallery-3.jpg" class="small-img" />
             </div>
             <div class="small-img-col">
-              <img src="images/product-2.jpg" class="small-img" />
+              <img src="images/gallery-4.jpg" class="small-img" />
             </div>
           </div>
         </div>
@@ -92,7 +93,7 @@
     <div class="small-container">
       <div class="row row-2">
         <h2>Related Products</h2>
-          <a href="products.html"> <p>View More</p> </a>
+          <a href="products.html" class="btn"><p>View More</p></a>
       </div>
     </div>
 
@@ -101,7 +102,7 @@
     <div class="small-container">
       <div class="row">
         <div class="col-4">
-          <img src="images/product-2.jpg" alt="" />
+          <img src="images/product-9.jpg" alt="" />
           <h4>Red Printed T-shirt</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -114,7 +115,7 @@
         </div>
 
         <div class="col-4">
-          <img src="images/product-2.jpg" alt="" />
+          <img src="images/product-10.jpg" alt="" />
           <h4>Red Printed T-shirt</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -127,7 +128,7 @@
         </div>
 
         <div class="col-4">
-          <img src="images/product-2.jpg" alt="" />
+          <img src="images/product-11.jpg" alt="" />
           <h4>Red Printed T-shirt</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -139,7 +140,7 @@
           <p>$50.00</p>
         </div>
         <div class="col-4">
-          <img src="images/product-2.jpg" alt="" />
+          <img src="images/product-12.jpg" alt="" />
           <h4>Red Printed T-shirt</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -186,8 +187,8 @@
           </div>
         </div>
         <hr />
-        <p class="copyright">Copyright 2022 - BDE EXIA</p>
-      </div>
+        <p>&copy; bde.cesi@2022.ucac-icam.com | Designed by Groupe 1©
+                <a href="/mentionslegales">Legal Notice</a>></p>       </div>
     </div>
     <!-- JS for Toggle menu -->
     <script>

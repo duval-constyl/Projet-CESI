@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>All Products - Red store</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style boutique.css" />
+    <link rel="icon" href="image/logo.png">
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
       rel="stylesheet"
@@ -24,12 +25,17 @@
         </div>
         <nav>
           <ul id="MenuItems">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="Contact.html">Contact</a></li>
+          <li><a href="/index">HOME</a></li>
+                    <li><a href="#">EVENT</a>
+                        <ul><li><a href="/event" id="pars">Participate</a></li></ul></li>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#">STORE</a></li>
+                    <li><a href="/box_visiteurs">SUGGESTION BOX</a></li>
+            <!-- TODo: 22:20 -->
           </ul>
         </nav>
-        <a href="cart.html"
+        <a href="/cart"
           ><img src="images/cart.png" alt="" width="30px" height="30px"
         /></a>
         <img
@@ -41,143 +47,118 @@
       </div>
     </div>
 
-    <div class="small-container">
-      <div class="row row-2">
-        <h2>All Products</h2>
-        <select name="" id="">
-          <option value="">Default Sorting</option>
-          <option value="">Sort by Price</option>
-          <option value="">Sort by Popularity</option>
-          <option value="">Sort by Rating</option>
-          <option value="">Sort by sales</option>
-        </select>
-      </div>
-
+    <!-- Single Products Detail -->
+    <div class="small-container single-product">
       <div class="row">
-        <div class="col-4">
-         <a href="product-details.html">
-            <img src="images/product-2.jpg" alt="" /></a> 
-          <h4>Red Printed T-shirt</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-          </div>
-          <p>$50.00</p>
-        </div>
+        <div class="col-2">
+          <img src="images/product-2.jpg" width="100%" id="ProductImg" />
 
-        <div class="col-4">
-          <a href="product-details.html">
-            <img src="images/product-2.jpg" alt="" /></a> 
-          <h4>Red Printed T-shirt</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-half-o"></i>
-            <i class="fa fa-star-o"></i>
+          <div class="small-img-row">
+            <div class="small-img-col">
+              <img src="images/product-2.jpg" class="small-img" />
+            </div>
+            <div class="small-img-col">
+              <img src="images/product-2.jpg" class="small-img" />
+            </div>
+            <div class="small-img-col">
+              <img src="images/product-2.jpg" class="small-img" />
+            </div>
+            <div class="small-img-col">
+              <img src="images/product-2.jpg" class="small-img" />
+            </div>
           </div>
-          <p>$50.00</p>
         </div>
-
-        <div class="col-4">
-          <a href="product-details.html">
-            <img src="images/product-2.jpg" alt="" /></a> 
-          <h4>Red Printed T-shirt</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-half-o"></i>
-          </div>
-          <p>$50.00</p>
+        <div class="col-2">
+          <p>Home / T-shirt</p>
+          <h2>Red Printed T-Shirt By HRX</h2>
+          <h4>$50.00</h4>
+          <select name="" id="">
+            <option value="">Select Size</option>
+            <option value="">XXL</option>
+            <option value="">XL</option>
+            <option value="">Large</option>
+            <option value="">Medium</option>
+            <option value="">Small</option>
+          </select>
+          <input type="number" value="1" />
+          <a href="" class="btn">Add to Cart</a>
+          <h3>Product Details<i class="fa fa-indent"></i></h3>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nemo
+            nam magnam rerum sunt explicabo! Distinctio ipsam doloremque nostrum
+            ipsum?
+          </p>
         </div>
-        <div class="col-4">
-          <a href="product-details.html">
-            <img src="images/product-2.jpg" alt="" /></a> 
-          <h4>Red Printed T-shirt</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-          </div>
-          <p>$50.00</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-4">
-          <a href="product-details.html">
-            <img src="images/product-2.jpg" alt="" /></a> 
-          <h4>Red Printed T-shirt</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-          </div>
-          <p>$50.00</p>
-        </div>
-
-        <div class="col-4">
-          <a href="product-details.html">
-            <img src="images/product-2.jpg" alt="" /></a> 
-          <h4>Red Printed T-shirt</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-half-o"></i>
-            <i class="fa fa-star-o"></i>
-          </div>
-          <p>$50.00</p>
-        </div>
-
-        <div class="col-4">
-          <a href="product-details.html">
-            <img src="images/product-2.jpg" alt="" /></a> 
-          <h4>Red Printed T-shirt</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-half-o"></i>
-          </div>
-          <p>$50.00</p>
-        </div>
-        <div class="col-4">
-          <a href="product-details.html">
-            <img src="images/product-2.jpg" alt="" /></a> 
-          <h4>Red Printed T-shirt</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-          </div>
-          <p>$50.00</p>
-        </div>
-      </div>
-
-
-      <div class="page-btn">
-          <a href="products.html"><span>1</span></a>  
-          <a href="products-2.html"><span>2</span></a>
-          <a href="products.html"><span>3</span></a>
-          <a href="products.html"><span>4</span></a>
-        <span>&#8594;</span>
       </div>
     </div>
 
-   <!-- Footer -->
-    <div class="footer">
+    <!-- Title -->
+    <div class="small-container">
+      <div class="row row-2">
+        <h2>Related Products</h2>
+          <a href="products.html"> <p>View More</p> </a>
+      </div>
+    </div>
+
+    <!-- Similar Products -->
+
+    <div class="small-container">
+      <div class="row">
+        <div class="col-4">
+          <img src="images/product-2.jpg" alt="" />
+          <h4>Red Printed T-shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="images/product-2.jpg" alt="" />
+          <h4>Red Printed T-shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="images/product-2.jpg" alt="" />
+          <h4>Red Printed T-shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-2.jpg" alt="" />
+          <h4>Red Printed T-shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+      </div>
+    </div>
+
+ <div class="footer">
       <div class="container">
         <div class="row">
           <div class="footer-col-1">
@@ -210,8 +191,8 @@
           </div>
         </div>
         <hr />
-        <p class="copyright">Copyright 2022 - BDE EXIA</p>
-      </div>
+        <p>&copy; bde.cesi@2022.ucac-icam.com | Designed by Groupe 1©
+                <a href="/mentionslegales">Legal Notice</a>></p>       </div>
     </div>
     <!-- JS for Toggle menu -->
     <script>
@@ -226,6 +207,24 @@
           MenuItems.style.maxHeight = "0px";
         }
       }
+
+
+    <!-- js for product gallery -->
+    <script>
+      var ProductImg = document.getElementById("ProductImg");
+      var smallImg = document.getElementsByClassName("small-img");
+      smallImg[0].onclick = function () {
+        ProductImg.src = smallImg[0].src;
+      };
+      smallImg[1].onclick = function () {
+        ProductImg.src = smallImg[1].src;
+      };
+      smallImg[2].onclick = function () {
+        ProductImg.src = smallImg[2].src;
+      };
+      smallImg[3].onclick = function () {
+        ProductImg.src = smallImg[3].src;
+      };
     </script>
   </body>
 </html>

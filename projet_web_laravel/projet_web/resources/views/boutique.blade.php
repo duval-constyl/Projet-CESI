@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Boutique CESI</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="image/logo.png">
+    <link rel="stylesheet" href="style boutique.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
       rel="stylesheet"
@@ -22,19 +23,22 @@
       <div class="container">
         <div class="navbar">
           <div class="logo">
-            <a href="index.html">
+            <a href="/boutique">
               <img src="images/Logo_cesi.png" alt="" width="125px"/></a>
           </div>
           <nav class="MAIN">
             <ul id="MenuItems">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="products.html">Products</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="C:\Users\ALPHA-Z\OneDrive\Desktop\Projet WEB\projet-cesi\www\index.html"> <span>Retour au Site</span></a></li>
+            <li><a href="/index">HOME</a></li>
+                    <li><a href="#">EVENT</a>
+                        <ul><li><a href="/event" id="pars">Participate</a></li></ul></li>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#">STORE</a></li>
+                    <li><a href="/box_visiteurs">SUGGESTION BOX</a></li>
 
               </ul>
           </nav>
-         <a href="cart.html"
+         <a href="/cart"
             ><img src="images/cart.png" alt="" width="30px" height="30px"
           /></a> 
           <img
@@ -54,7 +58,7 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
               Voluptas rerum maiores animi officiis
             </p>
-            <a href="products.html" class="btn">Explore Now &#8594;</a>
+            <a href="/products" class="btn">Explore Now &#8594;</a>
           </div>
           <div class="col-2">
             <img src="images/bdde.png" alt="" />
@@ -83,7 +87,7 @@
       <h2 class="title">Nouveaux Articles</h2>
       <div class="row">
         <div class="col-4">
-          <a href="product-details.html">
+          <a href="/product-details">
             <img src="images/product-2.jpg" alt=""
           /></a>
           <h4>Red Printed T-shirt</h4>
@@ -356,14 +360,15 @@
             <h3>Follow us</h3>
             <ul>
               <li>Facebook</li>
-              <li>Twitter</li>
+              <li href="https://twitter.com/ucac_icam/header_photo">Twitter</li>
               <li>Instagram</li>
               <li>YouTube</li>
             </ul>
           </div>
         </div>
         <hr />
-        <p class="copyright">Copyright 2022 - BDE EXIA</p>
+        <p>&copy; bde.cesi@2022.ucac-icam.com | Designed by Groupe 1©
+                <a href="/mentionslegales">Legal Notice</a>></p> 
       </div>
     </div>
     <!-- JS for Toggle menu -->

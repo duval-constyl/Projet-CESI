@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>All Products - Red store</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style boutique.css" />
+    <link rel="icon" href="image/logo.png">
+
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
       rel="stylesheet"
@@ -24,12 +26,16 @@
         </div>
         <nav>
           <ul id="MenuItems">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="Contact.html">Contact</a></li>
+          <li><a href="/index">HOME</a></li>
+                    <li><a href="#">EVENT</a>
+                        <ul><li><a href="/event" id="pars">Participate</a></li></ul></li>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#">STORE</a></li>
+                    <li><a href="/box_visiteurs">SUGGESTION BOX</a></li>
           </ul>
         </nav>
-        <a href="cart.html"
+        <a href="/cart"
           ><img src="images/cart.png" alt="" width="30px" height="30px"
         /></a>
         <img
@@ -55,7 +61,7 @@
 
       <div class="row">
         <div class="col-4">
-         <a href="product-details.html">
+         <a href="/product-details">
             <img src="images/product-1.jpg" alt="" /></a> 
           <h4>Red Printed T-shirt</h4>
           <div class="rating">
@@ -69,7 +75,7 @@
         </div>
 
         <div class="col-4">
-          <a href="product-details.html">
+          <a href="/product-details">
             <img src="images/product-1.jpg" alt="" /></a> 
           <h4>Red Printed T-shirt</h4>
           <div class="rating">
@@ -83,7 +89,7 @@
         </div>
 
         <div class="col-4">
-          <a href="product-details.html">
+          <a href="/product-details">
             <img src="images/product-1.jpg" alt="" /></a> 
           <h4>Red Printed T-shirt</h4>
           <div class="rating">
@@ -96,7 +102,7 @@
           <p>$50.00</p>
         </div>
         <div class="col-4">
-          <a href="product-details.html">
+          <a href="/product-details">
             <img src="images/product-1.jpg" alt="" /></a> 
           <h4>Red Printed T-shirt</h4>
           <div class="rating">
@@ -111,7 +117,7 @@
       </div>
       <div class="row">
         <div class="col-4">
-          <a href="product-details.html">
+          <a href="/product-details">
             <img src="images/product-1.jpg" alt="" /></a> 
           <h4>Red Printed T-shirt</h4>
           <div class="rating">
@@ -125,7 +131,7 @@
         </div>
 
         <div class="col-4">
-          <a href="product-details.html">
+          <a href="/product-details">
             <img src="images/product-1.jpg" alt="" /></a> 
           <h4>Red Printed T-shirt</h4>
           <div class="rating">
@@ -139,7 +145,7 @@
         </div>
 
         <div class="col-4">
-          <a href="product-details.html">
+          <a href="/product-details">
             <img src="images/product-1.jpg" alt="" /></a> 
           <h4>Red Printed T-shirt</h4>
           <div class="rating">
@@ -152,7 +158,7 @@
           <p>$50.00</p>
         </div>
         <div class="col-4">
-          <a href="product-details.html">
+          <a href="/product-details.">
             <img src="images/product-1.jpg" alt="" /></a> 
           <h4>Red Printed T-shirt</h4>
           <div class="rating">
@@ -168,10 +174,10 @@
 
 
       <div class="page-btn">
-          <a href="products.html"><span>1</span></a>  
-          <a href="product-2.html"><span>2</span></a>
-          <a href="products.html"><span>3</span></a>
-          <a href="products.html"><span>4</span></a>
+          <a href="/products"><span>1</span></a>  
+          <a href="/product-2"><span>2</span></a>
+          <a href="/products"><span>3</span></a>
+          <a href="/products"><span>4</span></a>
         <span>&#8594;</span>
       </div>
     </div>
@@ -210,8 +216,8 @@
           </div>
         </div>
         <hr />
-        <p class="copyright">Copyright 2022 - BDE EXIA</p>
-      </div>
+        <p>&copy; bde.cesi@2022.ucac-icam.com | Designed by Groupe 1©
+                <a href="/mentionslegales">Legal Notice</a>></p>       </div>
     </div>
     <!-- JS for Toggle menu -->
     <script>

@@ -90,7 +90,7 @@
         <div id="sideNav">
             <nav> 
                 <ul>
-                    <li><a href="/comment">HOME</a></li>
+                    <li><a href="/index">HOME</a></li>
                     <li><a href="/event">EVENT</a></li>
                     <li><a href="#about">ABOUT US</a></li>
                     <li><a href="#contact">CONTACT</a></li>
