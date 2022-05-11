@@ -71,36 +71,31 @@
 						<span class="focus-input100" data-placeholder=""></span>
 					</div>
                     <div class="password_error input-error"></div>
-
-					<div id="password_instructions" class="m-b-16">	
-					<!--recommandation du mot de passe-->
-					<span>For your security, use a password containing:</span>
-		                    <ul>
-			                    <li>At least 8 characters <i class="fas fa-check"></i></li> 
-			                    <li>At least one uppercase letter <i class="fas fa-check"></i></li>
-			                    <li>At least one number
-									<i class="fas fa-check"></i></li>
-			                </ul>
-			        </div>
-                    
-                    <div class="validate-input" data-validate = "Choice your localisation">
-					 <!--	<input class="input100" type="text" name="localisation_inscription">-->
-                     <select class="form-control input100" name="localisation_inscription">
-                         <option value="Default" selected="selected">choice a localisation...</option>
-                         <option value="Douala">Douala</option>
-                         <option value="Pointe-Noire">Pointe-Noire</option>
-						 <option value="Pointe-Noire">Bresil</option>
-						 <option value="Pointe-Noire">France</option>
-                     </select>
-                     <!-- <span class="focus-input100" data-placeholder="Localisation"></span> -->	
+					<div class="youremail"><p>Confirm Password</p></div> 
+					<!--insertion du mot de passe-->
+                    <div class="wrap-input100 validate-input" data-validate="Enter your password">
+						<span class="btn-show-pass">
+							<i class="zmdi zmdi-eye"></i>
+						</span>
+						<input class="input100" type="password" name="password_confirmation">
+						<span class="focus-input100" data-placeholder=""></span>
 					</div>
-                    <div class="localisation_error input-error"></div>
+                    <div class="password_error input-error"></div>
+
+					<div id="password_instructions" class="m-b-16">
+					<div class="youremail"><p>User</p></div> 
+					<!--insertion du prenom-->
+                    <div class="wrap-input100 validate-input" data-validate = "enter your first name">
+						<input class="input100" type="text" name="user">
+						<span class="focus-input100" data-placeholder=""></span>	
+					</div>	
+					
                     
     
 					<div class="container-login100-form-btn">
 						<div class="wrap-login100-form-btn">
 							<div class="login100-form-bgbtn"></div>
-							<button class="login100-form-btn"><li><a href="/conditions">inscription</a></li>
+							<button class="login100-form-btn"><li><a href="/inscription2">NEXT</a></li>
 
 								
 							</button>

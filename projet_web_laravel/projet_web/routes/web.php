@@ -70,5 +70,8 @@ Route::get('/publications', function () {
 Route::get('/conditions', function () {
     return view('conditions');
 });
+Route::get('/inscription2', function () {
+    return view('inscription2');
+});
 
 
