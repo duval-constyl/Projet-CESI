@@ -2,6 +2,7 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>All Products - Red store</title>
     <link rel="stylesheet" href="style boutique.css" />
@@ -27,8 +28,7 @@
         <nav>
           <ul id="MenuItems">
           <li><a href="/index">HOME</a></li>
-                    <li><a href="#">EVENT</a>
-                        <ul><li><a href="/event" id="pars">Participate</a></li></ul></li>
+                    <li><a href="/event">EVENT</a></li>
                     <li><a href="#about">ABOUT US</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                     <li><a href="/boutique">STORE</a></li>
@@ -125,44 +125,37 @@
     </div>
       
     <!-- Footer -->
-     <div class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="footer-col-1">
-            <h3>Download Our App</h3>
-            <p>
-              Download App for Android <br />
-              and ios mobile phone
-            </p>
-            <div class="app-logo">
-              <img src="images/play-store.png" alt="" />
-              <img src="images/app-store.png" alt="" />
+    <section id="contact">
+            <img src="image/bde.png" class="contact-img">
+            <div class="titleText">
+                <p>CONTACT</p>
             </div>
-          </div>
-          <div class="footer-col-2">
-            <img src="images/Logo_cesi.png" alt="" />
-            <p>
-              Lorem, ipsum dolor sit amet consectetur <br />adipisicing elit.
-              Porro, eum?
-            </p>
-          </div>
-
-          <div class="footer-col-4">
-            <h3>Follow us</h3>
-            <ul>
-              <li>Facebook</li>
-              <li>Twitter</li>
-              <li>Instagram</li>
-              <li>YouTube</li>
-            </ul>
-          </div>
-        </div>
-        <hr />
-        <p>&copy; bde.cesi@2022.ucac-icam.com | Designed by Groupe 1©
+            <div class="contact-row">
+                <div class="contact-left"><!--create a column on the left side which include opening hour -->
+                    <h1>CESI Student Office</h1>
+                    <P> Buy your food stuff or article, take part and give idees in different activities on the 
+                        campus  </P>
+                    <p><i class="fa fa-clock-o"></i>Monday to Friday - 5pm to 10pm</p>
+                    <p><i class="fa fa-clock-o"></i>Saturday to Sunday - 8am to 4pm</p>
+                </div>
+                <div class="contact-right"><!--create a column on the right side which include contact information-->
+                    <h1>Infoline</h1>
+                    <p>#Yansoki, Yassa, Douala <span id="map"><i class="fa fa-map-marker"></i></span></p>
+                    <p>bde.cesi@2022.ucac-icam.com <span id="paper"><i class="fa fa-paper-plane"></i></span></p>
+                    <P>+237 691986518 / 658978782 <span id="phone"><i class="fa fa-phone"></i></span></P>
+                </div>
+            </div>
+            <div class="social-links"><!--this class include ours different social media pages-->
+                <a href="https://fr-fr.facebook.com/"><span id="facebook"><i class="fa fa-facebook"></i></span></a>
+                <a href="https://www.instagram.com/"><span id="instagram"><i class="fa fa-instagram"></i></span></a>
+                <a href="https://twitter.com/"><span id="twitter"><i class="fa fa-twitter"></i></span></a>
+                <a href="https://www.youtube.com/"><span id="youtube"><i class="fa fa-youtube-play"></i> </span></a>
+                <p>&copy; bde.cesi@2022.ucac-icam.com | Designed by Groupe 1©
                 <a href="/mentionslegales">Legal Notice</a>></p> 
 
-      </div>
-    </div>
+            </div>
+    
+        </section>
     <!-- JS for Toggle menu -->
     <script>
       var MenuItems = document.getElementById("MenuItems");

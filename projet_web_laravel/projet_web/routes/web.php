@@ -73,5 +73,8 @@ Route::get('/conditions', function () {
 Route::get('/inscription2', function () {
     return view('inscription2');
 });
+Route::get('/home', function () {
+    return view('home');
+});
 
 

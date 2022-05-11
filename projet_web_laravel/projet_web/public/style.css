@@ -12,6 +12,7 @@
     background-size: cover;
     background-position: center;
     height: 65vh;
+    
 }
 
 #BDE{/*the bde logo*/
@@ -30,11 +31,11 @@
 }
 .face-text h1{
     font-size: 80px;
-    font-family: 'Kaushan Script', cursive;
+    font-family: Regular;
 }
 .face-text p{
     font-size: 20px;
-    font-style: italic;
+    font-style: Regular;
 }
 
 .face-btn{
@@ -59,8 +60,39 @@
     border: .5px solid black;
     
 }
+#sideNav{  top: 90%;
+  left:90%;
+  transform: translate(-10%,-2890%);
 
-/*side navigation bar for our menu*/
+}
+  nav {
+    flex: 1;
+    text-align: right;
+  
+  }
+  
+  nav ul {
+    display: inline-block;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #555;
+  }
+  nav ul li:hover{
+    text-decoration: underline;
+    
+} 
+a:hover{
+    color: white;
+}
+/*side navigation bar for our menu
 #sideNav{
     width: 180px;
     height: 100vh;
@@ -82,8 +114,8 @@ nav ul li a{
 }
 nav ul li:hover{
     text-decoration: underline;
-}
-#pars{
+}*/
+/*#pars{
     color: white;
     background: black; 
     text-decoration: none;
@@ -101,18 +133,18 @@ nav ul li:hover ul li{
     display: block;
     text-decoration: underline;
     transform: translateY(-7px);
-}
+}*/
 
-.connect{
+/*.connect{
     text-align: center; 
     margin-bottom: 0px; 
       
 }
 div ul li{
     list-style: none;
-}
+}*/
 /*subcribtion bottom*/
-.connect li a{
+/*.connect li a{
     font-size: 15px;
     text-decoration: none;
     color: black;
@@ -151,7 +183,7 @@ div ul li{
 .connect p span{
     width: 20px;
     height: 20px;
-}
+}*/
 
 
 /*the menu at the home page */
@@ -173,6 +205,9 @@ div ul li{
 }
 /*media screen in charge of the responsiveness of the site*/
 @media screen and (max-width: 770px) {
+    #face{
+        height: 100vh;
+    }
     .face-text h1{
         font-size: 30px;
     }
@@ -183,6 +218,17 @@ div ul li{
     #BDE{
         width: 100px;
     }
+    #sideNav{  
+        left: 50%;
+        top: 50%;
+        transform: translate(-10%,-500%);
+      
+      }
+      a {
+        text-decoration: none;
+        color: #555;
+        font-size: 10px;
+      }
 }
 
 
@@ -221,8 +267,8 @@ div ul li{
 
 }
 .titleText h2{
-    font-size: 40px;
-    font-family: Arial;
+    font-size: 30px;
+    font-family: Regular;
 }
 .event-box{
     width: 80%;

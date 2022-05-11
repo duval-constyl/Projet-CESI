@@ -21,7 +21,7 @@
                 <h1>Students Office</h1>
                 <p>Participate to differnts activity and event in your campus & buy food stuff</p>
                 <div class="face-btn">
-                    <a href="#">BUY STUFF</a>
+                    <a href="/connexion">LOGIN</a>
                 </div>
             </div>
         </section>
@@ -31,27 +31,28 @@
             <nav> 
                 <ul>
                     <li><a href="/index">HOME</a></li>
-                    <li><a href="#">EVENT</a>
-                        <ul><li><a href="/event" id="pars">Participate</a></li></ul></li>
+                    <li><a href="#event">EVENT</a></li>
+                        <!--<ul><li><a href="/event" id="pars">Participate</a></li></ul>-->
                     <li><a href="#about">ABOUT US</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                     <li><a href="/boutique">STORE</a></li>
                     <li><a href="/box_visiteurs">SUGGESTION BOX</a></li>
                 </ul>
             </nav>
-            <div class="connect">
-                <ul>
-                    <li><a href="/connexion">LOG IN</a></li>
+            
+           <!--  <div class="connect">
+               <ul>
+                    <li><a href="/connexion"></a></li>
                 </ul>
                 <p>If you DON'T<br> have an account <br><a href="/inscription">Sign Up</a> here OR use<br>
                     <a href="https://fr-fr.facebook.com/"><span id="facebk"><i class="fa fa-facebook"></i></span></a>
                     <a href="https://www.google.cm/"><span id="google"><i class="fa fa-google"></i></span></a>
                 </p>
-            </div>
+            </div>-->
         </div>
-        <div id="menuBtn">
+        <!--<div id="menuBtn">
             <img src="icon/menu.png" id="menu">
-        </div>
+        </div>-->
 
 
 

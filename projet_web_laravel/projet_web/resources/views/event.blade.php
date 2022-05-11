@@ -3,6 +3,7 @@
     <head>
         <title>BDE CESI</title> 
         <link rel="icon" href="image/logo.png">
+        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="event.css">
         <link rel="stylesheet" href="style idea.css">
         <link rel="stylesheet" href="idea.css">
@@ -37,8 +38,7 @@
             <nav> 
                 <ul>
                 <li><a href="/index">HOME</a></li>
-                    <li><a href="#">EVENT</a>
-                        <ul><li><a href="/event" id="pars">Participate</a></li></ul></li>
+                    <li><a href="#">EVENT</a></li>
                     <li><a href="#about">ABOUT US</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                     <li><a href="#">STORE</a></li>
@@ -47,7 +47,7 @@
 
                 </ul>
             </nav>
-            <div class="connect">
+           <div class="connect">
                 <ul>
                     <li><a href="/connexion">LOG IN</a></li>
                 </ul>
@@ -86,7 +86,7 @@
                     </div>
                     <p>We are to organise and celebrate the thirtieth anniversary of the school.</p>
                     <div class="icon-col">
-                        <img src="icon/vide.png" class="like" onclick="likebutton()">
+                        <img src="icon/vide.png" class="like" >
                         <img src="icon/commenter.png" class="comment">
                         <img src="icon/save.png" class="save">
                     </div>
@@ -111,7 +111,7 @@
                     <p>During this week, we are to learn diversity culture of students on the campus. Groupe students for the 
                         same tribe or country and ask them to participate to different activities. </p>
                     <div class="icon-col">
-                        <img src="icon/vide.png" class="like" onclick="likebutton()">
+                        <img src="icon/vide.png" class="like" >
                         <img src="icon/commenter.png" class="comment" <li><a href="/comment"></a></li>>
                         <img src="icon/save.png" class="save">
                     </div>
@@ -136,7 +136,7 @@
                     <p>This done at the beginning of every academic year where promotion will play football against
                         each other and at the end we give a price to the first of the Championship. </p>
                     <div class="icon-col">
-                        <img src="icon/vide.png" class="like" onclick="likebutton()">
+                        <img src="icon/vide.png" class="like" >
                         <img src="icon/commenter.png" class="comment">
                         <img src="icon/save.png" class="save">
                     </div>
@@ -161,7 +161,7 @@
                     <p>Technology tournament,the school organises a competition for other school in other to price 
                         the best innovating technology. </p>
                     <div class="icon-col">
-                        <img src="icon/vide.png" class="like" onclick="likebutton()">
+                        <img src="icon/vide.png" class="like" >
                         <img src="icon/commenter.png" class="comment">
                         <img src="icon/save.png" class="save">
                     </div>
@@ -186,7 +186,7 @@
                     <p>This event is especially for new members(students) in school in other for them to know each other
                         and attribute to them godfathers  .</p>
                     <div class="icon-col">
-                        <img src="icon/vide.png" class="like" onclick="likebutton()">
+                        <img src="icon/vide.png" class="like" >
                         <img src="icon/commenter.png" class="comment">
                         <img src="icon/save.png" class="save">
                     </div>
@@ -210,7 +210,7 @@
                     </div>
                     <p>Always done at the end of every to 2 month to help students to interact with each other. </p>
                     <div class="icon-col">
-                        <img src="icon/vide.png" class="like" onclick="likebutton()">
+                        <img src="icon/vide.png" class="like" >
                         <img src="icon/commenter.png" class="comment">
                         <img src="icon/save.png" class="save" onclick="getFileName()">
                     </div>
@@ -221,24 +221,6 @@
 
             
         </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         <!--this section includes the footer (contact) of the BDE site-->
@@ -274,6 +256,7 @@
         </section>
 
         <script>
+            const likes = document.getElementsByClassName('like')
             var menuBtn = document.getElementById("menuBtn")
             var sideNav = document.getElementById("sideNav")
             var menu = document.getElementById("menu")
@@ -283,6 +266,15 @@
             var contact = document.getElementById("contact")
             
             
+            for(const like of likes)
+                like.addEventListener('click', function(){
+                    if(like.src.match("icon/vide.png")){
+                        like.src = "icon/rouge.png"
+                    }
+                    else{
+                        like.src = "icon/vide.png"
+                    }
+                })
 
             sideNav.style.right == "-180px";
 
