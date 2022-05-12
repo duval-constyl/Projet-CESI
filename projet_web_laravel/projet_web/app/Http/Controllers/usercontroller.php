@@ -3,10 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\utilisateur;
+use App\Models\user;
 
-
-class utiController extends Controller
+class usercontroller extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -24,9 +23,8 @@ class utiController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function create()
-
     {
-        return view("inscription");
+        return view('inscription');
     }
 
     /**
@@ -37,15 +35,16 @@ class utiController extends Controller
      */
     public function store(Request $request)
     {
-        utilisateurs::create([
+        user::create([
             "nom_inscription"=>$request->nom_inscription,
             "prenom_inscription"=>$request->prenom_inscription,
             "email_inscription"=>$request->email_inscription,
             "password_inscription"=>$request->password_inscription,
             "password_confirmation"=>$request->password_confirmation,
-            "user"=>$request->user,
             "localisation_inscription"=>$request->localisation_inscription,
+            "user"=>$request->user,
         ]);
+        return redirect('home');
     }
 
     /**
@@ -56,7 +55,11 @@ class utiController extends Controller
      */
     public function show($id)
     {
-        //
+        $user = user::find($id);
+
+        return view('home',[
+            'user'=>$user
+        ]);
     }
 
     /**
